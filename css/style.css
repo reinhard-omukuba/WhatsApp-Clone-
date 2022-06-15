@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.mainSec{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/pexels-jopwell-2422280.jpg);
+    background-size: cover;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.opacity{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    position: absolute;
+}
+
+.contentDiv{
+    /* top: 0; */
+    position: absolute;
+    /* height: 100vh; */
+    width: 50%;
+}
+
+.contentDiv button{
+    width: 100%;
+}
+
+.contentDiv a{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.homeSec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.allUsers{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid gainsboro;
+}
+
+.allChats{
+    width: 70%;
+    height: 100vh;
+ 
+}
